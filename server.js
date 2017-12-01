@@ -1,6 +1,6 @@
 var express = require('express'),
     app = express(),
-    port = process.env.PORT || 3000;
+    port = process.env.PORT || 8080;
 // var mongoose = require('mongoose');
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://gamepc:Dongen135@ds125774.mlab.com:25774/gamepc24');
