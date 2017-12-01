@@ -1,0 +1,21 @@
+{
+  "name": "gamepc24server",
+  "version": "1.0.0",
+  "description": "API for a computer webshop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fritsjr/pc24sv.git"
+  },
+  "author": "Frits Thissen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.10.8",
+    "nodemon": "^1.12.1"
+  }
+}
